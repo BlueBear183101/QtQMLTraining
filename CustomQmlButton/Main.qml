@@ -1,8 +1,9 @@
 import QtQuick
+import QtQuick.Layouts
 
 Window {
-    width: 640
-    height: 480
+    width: 1000
+    height: 600
     visible: true
     title: qsTr("Custom Button")
 
@@ -11,12 +12,24 @@ Window {
         color: "#353535"
     }
 
-    HoverButton {
-        x: 100
-        y: 100
+    GridLayout {
+        id: btnGridLayout
+        anchors.centerIn: parent
+        rows: 3
+        columns: 2
+        rowSpacing: 60
+        columnSpacing: 100
 
-        onButtonHoverClicked: {
-            console.log("Hover Button")
+        HoverButton {
+            onButtonHoverClicked: {
+                console.log("Hover Button")
+            }
+        }
+
+        PulsingButton {
+            onButtonPulsingClicked: {
+                console.log("Pulsing Button")
+            }
         }
     }
 }

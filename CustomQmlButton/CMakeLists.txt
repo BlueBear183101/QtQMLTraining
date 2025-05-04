@@ -18,6 +18,7 @@ qt_add_qml_module(appCustomQmlButton
     QML_FILES
         Main.qml
         QML_FILES HoverButton.qml
+        QML_FILES PulsingButton.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
