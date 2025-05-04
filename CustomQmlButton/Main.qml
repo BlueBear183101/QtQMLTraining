@@ -31,5 +31,9 @@ Window {
                 console.log("Pulsing Button")
             }
         }
+
+        SlideButton {
+
+        }
     }
 }
