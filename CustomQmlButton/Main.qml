@@ -33,7 +33,22 @@ Window {
         }
 
         SlideButton {
-
+            onButtonClicked: {
+                console.log("Pulsing Button")
+            }
         }
+
+        NeonButton {
+            onButtonClicked: {
+                console.log("Neon Button")
+            }
+        }
+
+        SubmitButton {
+            onButtonClicked: {
+                console.log("Submit Button")
+            }
+        }
+
     }
 }
