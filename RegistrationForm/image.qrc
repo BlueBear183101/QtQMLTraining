@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/pictureRegister.png</file>
+        <file>images/visibility.svg</file>
+        <file>images/facebook.svg</file>
+        <file>images/google.svg</file>
+        <file>images/apple.svg</file>
+        <file>images/checkIcon.svg</file>
+        <file>images/check_pink.svg</file>
+    </qresource>
+</RCC>
